@@ -3,7 +3,7 @@
 //
 
 /*
-A JS function is a block of code that can be executed.
+A JS function is a block of code that can be executed arbitrary times.
 It is used to write a specific code only once, and then
 use it everywhere, where such code is needed.
 */
