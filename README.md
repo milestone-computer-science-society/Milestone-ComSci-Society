@@ -1,2 +1,2 @@
-# JavaScript-Basics
-MCSS - JavaScript Basics; hello world, data types, conditionals, loops etc.
+# Milestone Computer Science Society
+You'll find all the code that was written in our sessions.
