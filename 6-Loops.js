@@ -62,8 +62,7 @@ do {
       console.log('Donald Trump is the #' + presidents[j].number + ' president of the US.');
       break;
    }
-}
-while (j < presidents.length);
+} while (j < presidents.length);
 
 
 // Infinite loop

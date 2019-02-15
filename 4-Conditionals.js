@@ -31,10 +31,8 @@ if (user.password.length < 5) {
 switch (user.password) {
    case '123456':
       console.log('Password too weak!');
-      break;
    case 'password':
-      console.log('Password too weak');
-      break;
+      console.log('Password too weak!');
    default:
       console.log('Password okay.');
 }
