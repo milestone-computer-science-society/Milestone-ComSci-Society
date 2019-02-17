@@ -81,10 +81,10 @@ e-mail addresses, passwords, etc. We can store almost anything in strings.
 */
 
 let string1 = 'Hello, ', string2 = 'World!';
-console.log(string1 + string2);  // Add to strings together
+console.log(string1 + string2);  // Log the two strings concatenated
 
 let string3 = string1;  // string3 is now the same as string1
-string3 += string2;     // Add strings together
+string3 += string2;     // Concatenate strings, save the result in string3
 console.log(string3);   // Output: Hello, World!
 
 /*
@@ -110,6 +110,13 @@ console.log(lipsum.substr(6, 5));      // Selection starts at index 6, selects 5
 
 
 // Arrays
+
+/*
+Arrays are essentially a list of items. We can store anything in arrays,
+strings, numbers, booleans, objects or other arrays. The items are indexed
+from 0 (first item is 0, second is 1 and so on). We can access the items
+using the indexes.
+*/
 
 let pets = [ 'cat', 'dog', 'hamster' ];
 
@@ -144,6 +151,11 @@ console.log(pets);                           // Output: [ 'cat', 'bunny', 'hedge
 
 
 // Objects
+
+/*
+Objects are similar to arrays, except that they not only store values,
+but key-value pairs. Instead of indexes we can retrieve values using the keys.
+*/
 
 let user = { id: 1, username: 'johndoe12', fullname: 'John Doe', password: '123456' };
 

@@ -25,7 +25,7 @@ If there is no cmd option
    2: type 'shell'
    3: click 'Select default shell'
    4: click 'Command Prompt'
-   5: CLose your current terminal, by clickin the trash icon (top-right)
+   5: close your current terminal, by clickin the trash icon (top-right)
    6: open terminl again with ctrl + ` or ctrl + ö
 Now cmd should be selected, and if you have Node.JS properly installed
 you will be able to run the code, by typing:
