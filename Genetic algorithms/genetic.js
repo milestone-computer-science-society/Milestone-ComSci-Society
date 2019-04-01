@@ -1,3 +1,7 @@
+//
+// ComSci: Genetic algorithm
+//
+
 const readline = require('readline')
 
 let rl = readline.createInterface({
