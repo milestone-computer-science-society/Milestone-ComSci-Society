@@ -1,0 +1,44 @@
+/* comment */
+body {
+   background: #0099ff;
+   padding: 0;
+   margin: 0;
+}
+#header {
+   color: yellow;
+}
+.picicuki {
+   color: red;
+   background: white;
+   text-align: center;
+}
+.left {
+   text-align: left !important;
+}
+.right {
+   text-align: right !important;
+}
+.mexikoi_fal {
+   border: 6px dotted orange;
+   font-size: 30px;
+   color: white;
+}
+img {
+   width: 100vw;
+   height: 100vh;
+}
+.div1 {
+   background: gray;
+   height: 50px;
+   padding: 10px;
+   margin: 10px;
+}
+.div2 {
+   background: white;
+   height: 100%;
+   text-align: center;
+   line-height: 50px;
+}
+.div3 {
+   font-family: sans-serif;
+}
