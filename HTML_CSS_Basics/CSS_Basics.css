@@ -1,0 +1,104 @@
+/* ---------------------- */
+/* CSS_Basics design file */
+/* ---------------------- */
+
+/* Tagname selector, applies to ALL elements with this tagname */
+p {}
+body {}
+h3 {}
+
+/* Class selector, applies to ALL elements with this class */
+.classname {}
+.red-text {}
+.centered-text {}
+
+/* ID selector, applies to the ONLY element with this ID */
+#ID_8122 {}
+#submit-form-button {}
+#input-username {}
+
+/* Child selector */
+#parent-element #child-element {}
+
+/* Select multiple */
+#one-element, #other-element {}
+
+/* ---------------------- */
+
+/* '*' applies to everything */
+* {
+   outline: 0px !important;
+   box-sizing: border-box; }
+
+/* Body */
+body {
+   margin: 0;
+   padding: 0;
+   width: 100%;
+   height: 100%;
+   max-width: 100%;
+   background: #dddddd;
+   font-family: sans-serif; }
+
+/* Header design */
+#header {
+   width: 100vw;
+   color: #0074d9;
+   font-size: 40px;
+   text-align: center;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   border-bottom: 2px solid #aaaaaa;
+   margin: 0 0 30px 0;
+   font-family: cursive; }
+#header span {
+   color: #001f3f; }
+
+/* Content */
+#content {
+   margin: 0 20px; }
+
+/* Align text */
+#text-align {
+   padding: 20px;
+   margin-bottom: 40px;
+   background: #d1d1d1;
+   border: 1px solid #001f3f; }
+#align-left, #align-center, #align-right {
+   margin: 0; }
+#align-left {
+   text-align: left; }
+#align-center {
+   text-align: center; }
+#align-right {
+   text-align: right; }
+
+/* Borders */
+#borders {
+   margin-bottom: 40px; }
+.border {
+   padding: 5px;
+   margin-right: 20px; }
+#border-solid {
+   border: 3px solid #ff851b; }
+#border-dotted {
+   border: 3px dotted #ff851b; }
+#border-ridge {
+   border: 3px ridge #ff851b; }
+#border-dashed {
+   border: 3px dashed #ff851b; }
+#border-radius {
+   border: 3px solid #ff851b;
+   border-radius: 20px; }
+
+/* Box model */
+#box-outer {
+   height: 200px;
+   /* Margin: space outside of the element's border */
+   margin: 25px;
+   /* Padding: space inside of the element's border */
+   padding: 25px;
+   background: #39cccc; }
+#box-inner {
+   height: 100%;
+   background: #7fdbff; }
