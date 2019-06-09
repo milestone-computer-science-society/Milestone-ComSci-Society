@@ -1,0 +1,4 @@
+# Exclude files and folders from upload to GitHub
+
+node_modules
+package-lock.json
