@@ -7,9 +7,10 @@ Create a very basic webserver using Node.js' built-in *HTTP* module, that can li
 
 ## Getting started
 1. Clone or download this repository on your machine
-2. Navigate to the *Node HTTP server* folder in your terminal
+2. Navigate to the *Node_HTTP_Basicserver* folder in your terminal
 3. Run the server by typing `node index.js` in the terminal
 4. Open `localhost:3000` in your browser
+5. Stop server by pressing `ctrl + c` in the terminal
 
 ## Code explanation
 Node.js comes with a number of built-in modules used for file manipulation, accessing OS information and creating servers. The latter one is called *HTTP*. We have to import it into our code using the `require()` function. The created *http* obejct will contain methods and properties used to create our server.
@@ -49,4 +50,4 @@ In order for our server to be able to listen to incoming requests we need to sta
 server.listen(3000);
 ```
 ---
-##### Milestone Computer Science Society
+##### Milestone Computer Science Society - 2019

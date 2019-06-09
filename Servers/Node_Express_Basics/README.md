@@ -8,18 +8,19 @@ Create a very basic webserver using the Express package, that can listen for req
 
 ## Getting started
 1. Clone or download this repository on your machine
-2. Navigate to the *Node Express server* folder in your terminal
-3. Install packages by typing `npm install` in your terminal
+2. Navigate to the *Node_Express_Basics* folder in your terminal
+3. Install the packages by typing `npm install` in your terminal
 4. Run the server by typing `node index.js` in the terminal
 5. Open `localhost:3000` in your browser
+6. Stop server by pressing `ctrl + c` in the terminal
 
 ## Node Package Manager
 There is no need to reinvent the wheel. This is true in programming too. Most problems that we encounter are usually already solved by somebody else - and these solutions are available for download. Packages available through the Node Package Manager (from now on: npm) can really make it easier for us to write cleaner and more efficient code. Npm is installed together with Node.js, and we can use it to download necessary packages - in our case, Express.
 
-**Setting up a project that uses npm**
+**Using npm in a project:**
 In order to use npm packages we need to create a *package.json* file, that contains information about our project and keeps track of the packages that we install along the way. We can create it manually, but there is a simpler way. Navigate to your project folder in a terminal, and use the `npm init` command to initiate a new project. We are going to have to type in the name of our project and a few other (optional) details, and npm is going to create the *package.json* file for us. Now we can start installing packages and use them in our code.
 
-**Installing packages**
+**Installing packages:**
 We can install npm packages using `npm install package_name` in the terminal or `npm install` to install all packages listed in the *package.json* file. All installed dependencies are going to be saved in the *package.json* file. Upon installing a package a *package-lock.json* will also be created, as well as a folder named *node_modules*. The *package-lock.json* will contain additional details about the installed packages, and *node_modules* is the directory where they'll be downloaded. We don't *ever* need to do anything with either the file, nor the folder, we can leave them as they are.
 
 ## Code explanation
@@ -54,4 +55,4 @@ In order for our server to be able to listen to incoming requests we need to sta
 app.listen(3000, () => console.log('Server is running.'));
 ```
 ---
-##### Milestone Computer Science Society
+##### Milestone Computer Science Society - 2019
