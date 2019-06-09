@@ -3,7 +3,7 @@ Create a very basic webserver using Node.js' built-in *HTTP* module, that can li
 
 ## Prerequisites
 - Have [Node.js](https://nodejs.org/en/) installed on your machine
-- Have some basic JavaScript knowledge
+- Have already read and understood the 'JavaScript Basics' section
 
 ## Getting started
 1. Clone or download this repository on your machine

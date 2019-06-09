@@ -4,7 +4,7 @@ Create a very basic webserver using the Express package, that can listen for req
 ## Prerequisites
 - Have [Node.js](https://nodejs.org/en/) installed on your machine
 - Have already read and understood the 'Node HTTP server' section
-- Have some basic JavaScript knowledge
+- Have already read and understood the 'JavaScript Basics' section
 
 ## Getting started
 1. Clone or download this repository on your machine
