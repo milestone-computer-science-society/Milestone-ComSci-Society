@@ -14,7 +14,7 @@ MDN (https://developer.mozilla.org/en-US/) and w3schools (https://www.w3schools.
 
 **How do I install an npm package?**
 --
-NPM packages can be looked up at https://www.npmjs.com, and install from your command line emulator of choice using `npm install <packagename>`. Use the optional `--save` flag to save the dependency to you package's `package.json` file.
+NPM packages can be looked up at https://www.npmjs.com, and install from your command line emulator of choice using `npm install <packagename>`.
 
 **Why can't NPM find my script when using `npm start`?**
 --
