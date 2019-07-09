@@ -7,7 +7,7 @@ Create a very basic webserver using Node.js' built-in *HTTP* module, that can li
 
 ## Getting started
 1. Clone or download this repository on your machine
-2. Navigate to the *Node_HTTP_Basicserver* folder in your terminal
+2. Navigate to the *Node_HTTP_Basics* folder in your terminal
 3. Run the server by typing `node index.js` in the terminal
 4. Open `localhost:3000` in your browser
 5. Stop server by pressing `ctrl + c` in the terminal
